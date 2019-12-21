@@ -1,4 +1,5 @@
 {
+  "homepage": "https://rkndk.github.io/39b2afcc8e42b211f1e703221ba9d8ab20a32401",
   "name": "kulina",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +18,8 @@
     "styled-components": "^4.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -36,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }

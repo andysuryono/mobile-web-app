@@ -74,7 +74,7 @@ function FoodCard(props) {
 
     return (
         <Card>
-            <CardImage src={`${window.location.origin}/assets/images/${data.image}`}/>
+            <CardImage src={data.image}/>
             <CardContent>
                 <RatingBar>
                     <span>{data.rating}</span>

@@ -22,7 +22,7 @@ const data = [
         data: [
             {
                 id: 1,
-                image: 'image1.jpg',
+                image: 'https://kln.imgix.net/production/img/a6dc2e691d0f28752c1c9052de95e171_cover.jpg?w=360',
                 rating: 3.5,
                 title: 'Serba Salad',
                 detail: 'by Kulina',
@@ -30,35 +30,35 @@ const data = [
             },
             {
                 id: 2,
-                image: 'image2.jpg',
-                rating: 4.1,
-                title: 'Aneka Kecombrang',
-                detail: 'by Pasar Minggu Catering',
-                price: 18500
+                image: 'https://kln.imgix.net/production/img/mini-basic-1.jpg?w=360',
+                rating: 4.2,
+                title: 'Mini Basic',
+                detail: 'by Kulina',
+                price: 20000
             },
             {
                 id: 3,
-                image: 'image3.jpg',
-                rating: 4.4,
-                title: 'Nasi Kucing',
+                image: 'https://kln.imgix.net/production/img/onigiri-mixed-combo-2.jpg?w=360',
+                rating: 4.0,
+                title: 'Onigiri Mixed Combo',
                 detail: 'by Kulina',
-                price: 21000
+                price: 49000
             },
             {
                 id: 4,
-                image: 'image4.jpg',
-                rating: 4.0,
-                title: 'Healthy Lunch',
-                detail: 'by Kulina',
-                price: 50000
+                image: 'https://kln.imgix.net/production/img/nakula.jpg?w=360',
+                rating: 4.1,
+                title: 'Nakula by Twinhouse',
+                detail: 'by Twinhouse Nakula (Lunch)',
+                price: 42500
             },
             {
                 id: 5,
-                image: 'image5.jpg',
-                rating: 4.2,
-                title: 'Java Lunch',
-                detail: 'by Kulina',
-                price: 25000
+                image: 'https://kln.imgix.net/production/img/e33a506f0f314b3189196552f721c0bc_lunch.jpeg?w=360',
+                rating: 4.1,
+                title: 'Tastylicious',
+                detail: 'by Tastylicious',
+                price: 28000
             }
         ]
     },
@@ -68,7 +68,7 @@ const data = [
         data: [
             {
                 id: 6,
-                image: 'image6.jpg',
+                image: 'https://kln.imgix.net/production/img/szechuan-lunch-9.jpg?w=360',
                 rating: 4.1,
                 title: 'Szechuan Lunch',
                 detail: 'by Kulina',
@@ -76,7 +76,7 @@ const data = [
             },
             {
                 id: 7,
-                image: 'image7.jpg',
+                image: 'https://kln.imgix.net/production/img/salad-kulina-x-sayurbox--2.jpg?w=360',
                 rating: 4.2,
                 title: 'Salad [Kulina x Sayurbox]',
                 detail: 'by Kulina',
@@ -84,7 +84,7 @@ const data = [
             },
             {
                 id: 8,
-                image: 'image8.jpg',
+                image: 'https://kln.imgix.net/production/img/deluxepc.jpg-0e6805dc9ecfbfe6aa13b8c09c6c6451?w=360',
                 rating: 4.0,
                 title: 'Deluxe Lunch',
                 detail: 'by Kulina',
@@ -92,7 +92,7 @@ const data = [
             },
             {
                 id: 9,
-                image: 'image9.jpg',
+                image: 'https://kln.imgix.net/production/img/twenty-eight.jpg?w=360',
                 rating: 4.3,
                 title: 'Twenty Eight',
                 detail: 'by Twenty Eight',
@@ -100,7 +100,7 @@ const data = [
             },
             {
                 id: 10,
-                image: 'image10.jpg',
+                image: 'https://kln.imgix.net/production/img/fit-lo-kal-single-1.jpg?w=360',
                 rating: 4.2,
                 title: 'Fit Gourmet',
                 detail: 'by Fit Gourmet (Sinabung)',
